@@ -7,4 +7,4 @@ class ProjectEntity(val id: String,
                     val dateCreated: String,
                     val ownerName: String,
                     val ownerAvatar: String,
-                    val isBookMarked: Boolean)
+                    val isBookmarked: Boolean)

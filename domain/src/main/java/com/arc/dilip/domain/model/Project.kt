@@ -7,4 +7,4 @@ class Project(val id: String,
                  val dateCreated: String,
                  val ownerName: String,
                  val ownerAvatar: String,
-                 val isBookMared: Boolean)
+                 val isBookmarked: Boolean)

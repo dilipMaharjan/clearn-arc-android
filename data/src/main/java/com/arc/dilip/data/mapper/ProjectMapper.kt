@@ -13,7 +13,7 @@ open class ProjectMapper @Inject constructor() : EntityMapper<ProjectEntity, Pro
                 entity.dateCreated,
                 entity.ownerName,
                 entity.ownerAvatar,
-                entity.isBookMarked)
+                entity.isBookmarked)
     }
 
     override fun mapToEntity(domain: Project): ProjectEntity {
@@ -24,6 +24,6 @@ open class ProjectMapper @Inject constructor() : EntityMapper<ProjectEntity, Pro
                 domain.dateCreated,
                 domain.ownerName,
                 domain.ownerAvatar,
-                domain.isBookMarked)
+                domain.isBookmarked)
     }
 }

@@ -33,6 +33,6 @@ class ProjectMapperTest {
         assertEquals(entity.starCount, model.starCount)
         assertEquals(entity.dateCreated, model.dateCreated)
         assertEquals(entity.ownerName, model.ownerName)
-        assertEquals(entity.isBookMarked, model.isBookMarked)
+        assertEquals(entity.isBookmarked, model.isBookmarked)
     }
 }
